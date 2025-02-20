@@ -97,12 +97,40 @@ nav {
   width: 15px;
   background-color: rgb(172, 167, 159);
 }
-
-/* .input_section {
-  width: 40%;
-  height: calc(100vh- 80px- 70%);
+.input-section{
+  width: 100%;
+  height: calc( 100vh - 80px - 70%);
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-} */
+  gap:20px;
+  padding: 0px 20px;
+  position: fixed;
+  bottom: 0;
+}
+#add,#submit{
+  width: 50px;
+  height: 50px;
+  border : 2px solid rgba(255, 255, 255, 0.297);
+  border-radius: 50px;
+  background-color: rgb(11, 16, 17);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+form input{
+  max-width: 60%;
+  width:calc( 100% - 100px);
+  height: 60px;
+  background-color: rgb(25, 29, 29);
+  border : 2px solid rgba(255, 255, 255, 0.297);
+  outline: none;
+  border-radius: 30px;
+ color: white;
+padding: 10px 20px;
+font-size: 19px;
+
+
+}
